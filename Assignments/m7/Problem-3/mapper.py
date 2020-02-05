@@ -8,3 +8,4 @@ def mapper(record):
 for line in sys.stdin:
 	record = json.loads(line)
 	mapper(record)
+	
